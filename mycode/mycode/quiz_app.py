@@ -28,7 +28,8 @@ else:
     transcription = main.transcribe_video(video_file)
     
     n_questions = st.number_input("How many questions do you want to generate?", min_value=1, value=5)
+    difficulty = st.selectbox("Select the difficulty level of the questions", ['easy', 'medium', 'hard'])
     
     if st.button('Generate Quiz'):
-        questions = main.generate_quiz(transcription.text, n_questions=n_questions)
+        questions = main.generate_quiz(transcription.text, n_questions=n_questions, difficulty=difficulty)
         st.markdown(f"Test your knowledge:\n {questions}")

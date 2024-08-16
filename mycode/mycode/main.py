@@ -58,11 +58,11 @@ def transcribe_video(video_file):
     return response
     
 #Generate questions
-def generate_quiz(text,n_questions):
+def generate_quiz(text,n_questions, difficulty):
     client = OpenAI(api_key = os.getenv('OPENAI_API_KEY_ST'))
     response = client.chat.completions.create(
         model="gpt-4o",
-        messages=prompts.generate_quizbot_prompts(text,n_questions),
+        messages=prompts.generate_quizbot_prompts(text,n_questions, difficulty),
         temperature=0.7
     )
     return response.choices[0].message.content 
