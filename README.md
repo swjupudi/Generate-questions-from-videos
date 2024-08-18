@@ -1,27 +1,3 @@
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#About-the-project">About The Project</a>
-      <ul>
-        <li><a href="#Key Features">Key Features</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#Getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#Prerequisites">Prerequisites</a></li>
-        <li><a href="#Installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#Code Walkthrough">Code Walkthrough</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -92,7 +68,7 @@ With the virtual environment activated, install the requirements using:
 pip install -r requirements.txt
 ```
 
-### Running the Project
+### Executing the Project
 - With your virtual environment activated and dependencies installed, start the Streamlit application:
      ```
      streamlit run quiz_app.py
@@ -126,6 +102,7 @@ pip install -r requirements.txt
     
     doing exactly what the function name suggests.
 
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0dd4deb0-ae20-41c9-bdbe-307a91ab39f8/d330ebd5-2ea9-4cf7-aaa1-406fdaf5a1ba/image.png)
+Here's how the output looks like
 
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0dd4deb0-ae20-41c9-bdbe-307a91ab39f8/4e7d6974-0077-4240-a17c-c0a7383bca1f/image.png)
+<img width="609" alt="Screenshot 2024-08-18 at 12 24 27 PM" src="https://github.com/user-attachments/assets/54b3e754-c90f-44af-805d-2968bb2e615c">
+<img width="699" alt="Screenshot 2024-08-18 at 12 24 56 PM" src="https://github.com/user-attachments/assets/f74b850e-5900-403a-8b3b-3003f55b066d">
